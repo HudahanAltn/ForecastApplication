@@ -16,6 +16,8 @@
 		05379F642A7E2976000AC901 /* ForecastApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05379F632A7E2976000AC901 /* ForecastApplicationTests.swift */; };
 		05379F6E2A7E2976000AC901 /* ForecastApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05379F6D2A7E2976000AC901 /* ForecastApplicationUITests.swift */; };
 		05379F702A7E2976000AC901 /* ForecastApplicationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05379F6F2A7E2976000AC901 /* ForecastApplicationUITestsLaunchTests.swift */; };
+		05379F802A7E29C6000AC901 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05379F7F2A7E29C6000AC901 /* Api.swift */; };
+		05379F822A7E29D4000AC901 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05379F812A7E29D4000AC901 /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		05379F692A7E2976000AC901 /* ForecastApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForecastApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05379F6D2A7E2976000AC901 /* ForecastApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastApplicationUITests.swift; sourceTree = "<group>"; };
 		05379F6F2A7E2976000AC901 /* ForecastApplicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastApplicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		05379F7F2A7E29C6000AC901 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		05379F812A7E29D4000AC901 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		05379F4B2A7E2975000AC901 /* ForecastApplication */ = {
 			isa = PBXGroup;
 			children = (
+				05379F7E2A7E29BC000AC901 /* Utility */,
 				05379F4C2A7E2975000AC901 /* AppDelegate.swift */,
 				05379F4E2A7E2975000AC901 /* SceneDelegate.swift */,
 				05379F502A7E2975000AC901 /* ViewController.swift */,
@@ -125,6 +130,15 @@
 				05379F6F2A7E2976000AC901 /* ForecastApplicationUITestsLaunchTests.swift */,
 			);
 			path = ForecastApplicationUITests;
+			sourceTree = "<group>";
+		};
+		05379F7E2A7E29BC000AC901 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				05379F7F2A7E29C6000AC901 /* Api.swift */,
+				05379F812A7E29D4000AC901 /* UIColorExtension.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +274,8 @@
 			files = (
 				05379F512A7E2975000AC901 /* ViewController.swift in Sources */,
 				05379F4D2A7E2975000AC901 /* AppDelegate.swift in Sources */,
+				05379F822A7E29D4000AC901 /* UIColorExtension.swift in Sources */,
+				05379F802A7E29C6000AC901 /* Api.swift in Sources */,
 				05379F4F2A7E2975000AC901 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
